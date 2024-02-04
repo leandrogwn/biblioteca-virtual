@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Biblioteca</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/style.css" rel="stylesheet" media="screen">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="topo"> </div>
+<div id="centro"><img src="img/biblio.png"> </div>
+<div id="div_login">
+  <h1>Login</h1>
+  <p>Digite o seu login e sua senha para entrar no sistema</p>
+  <form action="pages/login.php" method="post" id="form" class="form">
+  
+      <label class="primeiro" for="usuario">Usuário:</label><input type="text" name="usuario" id="usuario" data-provide="typeahead">  
+      <label class="primeiro" for="senha">Senha:</label>
+      <input type="password" name="senha" id="senha" data-provide="typeahead">
+      <p align="right">
+    <input type="submit" id="btn_entrar" value="Entrar" class="btn btn-primary"></p>
+  </form>
+</div>
+</body>
+</html>

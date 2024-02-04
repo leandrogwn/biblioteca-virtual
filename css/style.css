@@ -1,0 +1,169 @@
+/* CSS Document */
+
+body {
+	font-family: Tahoma, Helvetica, Arial;
+	font-size: 11px;
+}
+li {
+	LIST-STYLE-TYPE: none;
+}
+#logo_topo {
+	background: url(../img/logo_topo.png) no-repeat;
+	width: 500px;
+	height: 60px;
+	margin-top: -65px;
+}
+#topo {
+	background-image: url(../../eticarta/img/bg_topo.png);
+	height: 63px;
+	color: #fff;
+}
+#sair {
+	margin-right: 15px;
+	margin-top: 3px;
+	width: 35px;
+	float: right;
+	border: 2px solid #CCC;
+	border-radius: 7px;
+	text-align: right;
+}
+#centro {
+	margin-left: 0;
+	margin-right: 375px;
+	padding: 20px 40px;
+	text-align: center;
+}
+#div_login {
+	border: 1px solid #000;
+	border-radius: 8px;
+	margin: 10px;
+	padding: 0 20px 20px;
+	position: absolute;
+	right: 0;
+	top: 52px;
+	width: 325px;
+}
+.form input, #obs {
+	font-size: 20px;
+	width: 229px;
+}
+#div_login h1 {
+	letter-spacing: -1px;
+	font-size: 2em;
+	margin: 0.7em 0;
+}
+#div_login p {
+	font-size: 1.3em;
+}
+#form label {
+	font-size: 16px;
+	width: 80px;
+}
+.primeiro {
+	width: 140px;
+	padding-left: 0px;
+	float: left;
+	margin: 0px 0px 0px 2px;
+}
+#btn_entrar {
+	width: 100px;
+}
+input, select, #obs {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	width: 400px;
+	padding: 1px;
+}
+.tab-content {
+	margin-left: 200px;
+	margin-right: 200px;
+	border: 2px solid #CCC;
+	border-radius: 7px;
+}
+#lista {
+	padding: 10px;
+	text-align: center;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+#lista ul {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FLOAT: left;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 15px 0px;
+	WIDTH: 100%;
+	PADDING-TOP: 0px;
+	LIST-STYLE-TYPE: none;
+}
+#lista ul li {
+	PADDING-RIGHT: 2px;
+	DISPLAY: inline;
+	PADDING-LEFT: 2px;
+	FLOAT: left;
+	PADDING-BOTTOM: 2px;
+	WIDTH: 24%;
+	PADDING-TOP: 2px
+}
+#emp_livro, #dev_livro, #listar_livro, #cad_livro, #tipo_leitor, #cad_leitor, #alt_senha, #cad_biblioteca, #cad_usuario, #edt_livro, #cad_genero, #list_leitor, #list_tipo_leitor, #list_genero, #edt_genero, #edt_usuario, #edt_leitor, #edt_tipo_leitor, #list_usuario {
+	font-size: 14px;
+}
+#titulo {
+	color: #FFF;
+	background: #999;
+	border-radius: 8px;
+}
+#lista_cem {
+	padding: 10px;
+	text-align: center;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+#lista_cem ul {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FLOAT: left;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 15px 0px;
+	WIDTH: 100%;
+	PADDING-TOP: 0px;
+	LIST-STYLE-TYPE: none;
+}
+#lista_cem ul li {
+	PADDING-RIGHT: 2px;
+	DISPLAY: inline;
+	PADDING-LEFT: 2px;
+	FLOAT: left;
+	PADDING-BOTTOM: 2px;
+	WIDTH: 100%;
+	PADDING-TOP: 2px
+}
+#lista_ger {
+	padding: 10px;
+	text-align: center;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+#lista_ger ul {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FLOAT: left;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 15px 0px;
+	WIDTH: 100%;
+	PADDING-TOP: 0px;
+	LIST-STYLE-TYPE: none;
+}
+#lista_ger ul li {
+	PADDING-RIGHT: 2px;
+	DISPLAY: inline;
+	PADDING-LEFT: 2px;
+	FLOAT: left;
+	PADDING-BOTTOM: 2px;
+	WIDTH: 100%;
+	PADDING-TOP: 2px
+}
+#tab2 ul li {
+	text-transform: uppercase;
